@@ -1,0 +1,741 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+body {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #202124;
+  overflow-x: hidden !important;
+}
+
+i {
+  color: #a1abb9;
+  margin: 3px 0 0 7px;
+}
+
+#__next-build-watcher,
+#__next-prerender-indicator {
+  display: none !important;
+}
+
+.fa-reorder {
+  font-size: 25px;
+}
+
+/* >........>............................................................ */
+.gonearOut {
+  width: 100%;
+  height: 700px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gonear {
+  display: flex;
+  width: 1200px;
+  margin: 40px 0 70px 0;
+}
+
+.goleftheader {
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+  width: 550px;
+  line-height: 70px;
+}
+
+.applyheader {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  width: 550px;
+  line-height: 70px;
+}
+
+.roadmapheader {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.roadmapout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.arrowBtn {
+  display: flex;
+}
+
+.eacharrowBtn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3739;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.eacharrowBtn>i {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.roadmapheaderleft {
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  width: 550px;
+  line-height: 70px;
+}
+
+.goletter {
+  color: #717cd6;
+}
+
+.goleftsubtitle {
+  color: #a1abb9;
+  font-weight: 400;
+  font-size: 20px;
+  width: 550px;
+  margin: 30px 0;
+}
+
+.gonearleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.goBtns {
+  display: flex;
+}
+
+.goBtn {
+  width: 205px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  background-color: #717cd6;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 10px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.goBtn:hover,
+.InquireBtn:hover {
+  background-color: #4d5ccb;
+}
+
+.InquireBtn {
+  width: 305px;
+  transition: all 0.3s ease-in-out;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #717cd6;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.gonearright {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.gonearrightcard {
+  width: 400px;
+  min-width: 400px;
+  height: 450px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 120px;
+  position: relative;
+}
+
+.upcom {
+  width: 1200px;
+}
+
+.upcomTitle {
+  margin-top: 50px;
+  padding: 0 70px 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learnmoreheadertitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.Fundheadertitle {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 30px 0;
+}
+
+.upcomrightBtn {
+  border: 1px solid #a1abb9;
+  width: 130px;
+  height: 40px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  margin: 5px 0;
+}
+
+.upcomrightBtn:hover {
+  background-color: #303136;
+}
+
+.learnmorevisitBtn {
+  border: 1px solid #a1abb9;
+  width: 130px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.learnmorevisitBtn:hover {
+  background-color: #303136;
+}
+
+.upcomTitleleft {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.upcomrightcircle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  border: 1px solid #a1abb9;
+  background-color: darkcyan;
+  margin-left: 13px;
+}
+
+.upcomrightcircleletter {
+  margin-right: 13px;
+}
+
+.UpCards {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 50px 0;
+  cursor: pointer;
+}
+
+.Upcard {
+  width: 380px;
+  height: 450px;
+  position: relative;
+  border: 1px solid #a1abb9;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #171b26;
+  transition: all 0.3s;
+}
+
+.Upcard:hover {
+  margin-top: -10px;
+}
+
+.cardimg {
+  border: 1px solid #a1abb9;
+  width: 380px;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.upcardcircle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50px;
+  background-color: yellow;
+  margin-left: 10px;
+}
+
+.upcardBtn {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+  background-color: #10dc95;
+}
+
+.upcardcircleletter {
+  color: #202124;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.upcardlogo {
+  border: 5px solid #202124;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 1;
+  overflow: hidden;
+  top: 170px;
+  left: 20px;
+  background-color: #303136;
+}
+
+.upcardtitle {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  margin: 50px 0 0 20px;
+}
+
+.fundtitle {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  margin: 60px 0 0 20px;
+}
+
+.learncardtitle {
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  margin: 20px 0 0 20px;
+}
+
+.upcardsubtitle {
+  color: #a1abb9;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.upcardline1 {
+  width: 350px;
+  margin: 20px 0 0 10px;
+  height: 30px;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  color: white;
+  font-weight: 800;
+}
+
+.fundtotalraise {
+  width: 350px;
+  margin: 40px 0 0 10px;
+  height: 30px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  color: white;
+  font-weight: 800;
+}
+
+.upcardline2 {
+  width: 350px;
+  margin: 0 10px;
+  height: 30px;
+  justify-content: space-between;
+  display: flex;
+  font-size: 18px;
+  color: white;
+  font-weight: 800;
+}
+
+.upcardlineleft {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.item {
+  margin-left: 5px;
+}
+
+.check_icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+}
+
+.check_icon:after {
+  content: "✔";
+  position: absolute;
+  color: white;
+}
+
+.rect_card {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.rect_icon {
+  background-color: rgb(164, 43, 20);
+  border-radius: 3px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  max-width: 70px;
+}
+
+.realcard {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: -50px;
+}
+
+.upcardlineright {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.viewallprojects {
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a1abb9;
+  margin-bottom: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.viewallprojects:hover {
+  background-color: #303136;
+}
+
+.viewallprojectsout {
+  display: flex;
+  justify-content: center;
+}
+
+.upcomout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learnmorevisit {
+  display: flex;
+}
+
+.learnmoreOut {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #a1abb9;
+  border-bottom: 1px solid #a1abb9;
+  padding: 100px 0 50px 0;
+}
+
+.learnmoreheader {
+  width: 1200px;
+}
+
+.learncardsubtitle {
+  color: #a1abb9;
+  margin: 15px 50px 0 20px;
+  font-size: 17px;
+}
+
+.fundheaderright {
+  display: flex;
+}
+
+.fundBtn {
+  width: 180px;
+  height: 70px;
+  margin-left: 10px;
+  border: 1px solid #a1abb9;
+  border-radius: 5px;
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.fundBtnText {
+  font-size: 12px;
+  color: #e5ce4c;
+  margin-top: 10px;
+}
+
+.uniqBtnText {
+  font-size: 12px;
+  color: #21b3bd;
+  margin-top: 10px;
+}
+
+.fundBtnleft {
+  margin-top: 10px;
+}
+
+.fundBtnNum {
+  color: white;
+  text-align: right;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.raisedBtnText {
+  color: #4351c3;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+@media screen and (max-width: 1220px) {
+  .gonearOut {
+    padding-top: 100px !important;
+    height: 500px !important;
+  }
+
+  .gonear {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .gonearleft {
+    text-align: center !important;
+  }
+
+  .goBtns {
+    justify-content: center !important;
+  }
+
+  .gonearrightcard {
+    margin: 0 !important;
+  }
+
+  .UpCards {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .Upcard {
+    margin: 10px 0 !important;
+  }
+
+  .FundOut {
+    width: 95% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .gonear,
+  .roadmapheader,
+  .upcom,
+  .UpCards,
+  .learnmoreheader {
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Fundheadertitle {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .upcomTitleleft {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .fundheaderright {
+    flex-direction: column !important;
+  }
+
+  .fundBtn {
+    margin: 5px 0 !important;
+  }
+
+  .goleftheader {
+    font-size: 25px !important;
+    display: flex;
+    width: auto !important;
+    justify-content: center !important;
+  }
+
+  .goleftsubtitle {
+    width: 100% !important;
+  }
+
+  .applyheader {
+    font-size: 25px !important;
+    width: auto !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .goBtns {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .goBtn {
+    margin: 5px 0 !important;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .applyheader {
+    font-size: 20px !important;
+  }
+
+  .roadmapheaderleft {
+    font-size: 20px !important;
+  }
+
+  .early {
+    line-height: 30px !important;
+  }
+
+  .upcomTitle {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+  }
+
+  .learnmoreheadertitle {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .upcomTitleleft {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+}
+
+.check_card {
+  margin-top: -15px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.description {
+  font-size: 16px;
+  color: #fff;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 380px) {
+  .fundtotalraise {
+    width: 100% !important;
+  }
+
+  .upcardlineleft {
+    width: 60% !important;
+  }
+
+  .upcardlineright {
+    width: 30% !important;
+  }
+
+  .upcardline1, .upcardline2 {
+    width: 100% !important;
+  }
+
+  .Upcard {
+    width: 100% !important;
+  }
+
+  .upcomTitleleft {
+    font-size: 30px !important;
+  }
+
+  .roadmapheader {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+  }
+
+  .roadmapheaderleft {
+    width: 210px;
+  }
+}

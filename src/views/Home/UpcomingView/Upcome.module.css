@@ -1,0 +1,193 @@
+.upcomout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upcom {
+    width: 1200px;
+}
+
+.Upcard {
+    width: 380px;
+    height: 450px;
+    position: relative;
+    border: 1px solid #a1abb9;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #171b26;
+    transition: all 0.3s;
+}
+
+.upcomTitle {
+    margin-top: 50px;
+    padding: 0 70px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcomTitleleft {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.upcardcircle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    background-color: darkcyan;
+    margin-left: 10px;
+}
+
+.upcardBtn {
+    display: flex;
+    border: 1px solid #a1abb9;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+}
+
+.upcomrightBtn {
+    border: 1px solid #a1abb9;
+    width: 130px;
+    height: 40px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin: 5px 0;
+}
+
+.upcardlogo {
+    border: 5px solid #202124;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+    top: 170px;
+    left: 20px;
+    background-color: #303136;
+}
+
+.upcardcircleletter {
+    color: #202124;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.upcomrightBtn:hover {
+    background-color: #303136;
+}
+
+.upcardline1 {
+    width: 350px;
+    margin: 20px 0 0 10px;
+    height: 30px;
+    display: flex;
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+}
+
+.upcardline2 {
+    width: 350px;
+    margin: 0 10px;
+    height: 30px;
+    display: flex;
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+}
+
+.upcardlineleft {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.upcardlineright {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.upcomrightcircle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: 1px solid #a1abb9;
+    background-color: darkcyan;
+    margin-left: 13px;
+}
+
+.upcardtitle {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 50px 0 0 20px;
+}
+
+.upcardsubtitle {
+    color: #a1abb9;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.upcomrightcircleletter {
+    margin-right: 13px;
+}
+
+.cardimg {
+    border: 1px solid #a1abb9;
+    width: 380px;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.UpCards {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 50px 0;
+    cursor: pointer;
+}
+
+/* responsive */
+@media screen and (max-width: 1220px) {
+    .UpCards {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .Upcard {
+        margin: 10px 0 !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .upcomTitleleft {
+        margin-bottom: 30px !important;
+    }
+}

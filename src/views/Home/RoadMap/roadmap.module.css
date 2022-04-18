@@ -1,0 +1,124 @@
+.roadmapout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.item {
+    margin-left: 5px;
+}
+
+.rect_icon {
+    background-color: rgb(164, 43, 20);
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    max-width: 70px;
+}
+
+.description {
+    font-size: 16px;
+    color: #fff;
+    max-width: 200px;
+}
+
+.check_icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 255, 0);
+    border-radius: 50%;
+}
+
+.rect_card {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.check_icon:after {
+    content: "✔";
+    position: absolute;
+    color: white;
+}
+
+.roadmapheaderleft {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    width: 550px;
+    line-height: 70px;
+}
+
+.roadmapheader {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.check_card {
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.eacharrowBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c3739;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.eacharrowBtn>i {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.arrowBtn {
+    display: flex;
+}
+
+
+.goletter {
+    color: #717cd6;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1220px) {
+    .roadmapheader {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .roadmapheaderleft {
+        font-size: 20px !important;
+    }
+}
